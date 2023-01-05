@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/azure_header">
+
+        <EditTextPreference
+            app:key="region"
+            app:title="@string/region_title"
+            app:defaultValue="northeurope"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="key"
+            app:title="@string/key_title"
+            app:defaultValue=""
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/userinterface">
+        <SeekBarPreference
+            app:key="fontsize"
+            app:min="10"
+            android:max="70"
+            app:defaultValue="42"
+            app:showSeekBarValue="true"
+            app:title="@string/fontsizes"
+            app:useSimpleSummaryProvider="true"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

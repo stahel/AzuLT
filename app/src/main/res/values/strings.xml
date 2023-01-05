@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AzuLT</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="azure_header">Azure resource</string>
+    <string name="userinterface">User interface</string>
+    <string name="fontsizes">Font sizes</string>
+    <string name="region_title">Region</string>
+    <string name="key_title">Key</string>
+
+    <!-- Other strings -->
+    <string name="owntext_hint">Type your text here..</string>
+
+    <!-- Error messages -->
+    <string name="noSpeechConfig">Error in Azure configuration, add correct Azure region and key in Settings</string>
+    <string name="connection_failure">Could not connect to Azure - check region name and network connection</string>
+    <string name="authentication_failure">Azure authentication failure - check key</string>
+</resources>
